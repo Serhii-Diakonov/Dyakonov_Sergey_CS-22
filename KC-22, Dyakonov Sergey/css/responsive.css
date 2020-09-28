@@ -1,0 +1,154 @@
+/*
+responsive.css v1.0
+Author: Sergey Kushnir
+(c) 2012-2015 IT DEV GROUP
+http://it-devgroup.com
+*/
+
+@media (max-width: 1250px) {
+	.container, .main {width: 100%;}
+	.container {padding: 0 15px;}
+
+	.post, .share, .share-vk {width: 31%;margin-right: 3.5%}
+	.post-img {height: auto;}
+	.connect {width: 31%;}
+
+	.wrapper {min-width: inherit;}
+	.banner {width: 600px;margin: 28px 0;}
+
+	.main {padding: 20px 0 60px;}
+	.sidebar {display: none;}
+	.column {width: 100%;float: none;}
+	
+	ul.banner-list {text-align: center;}
+	ul.banner-list li {float: none;display: inline-block;margin: 0 15px 20px;vertical-align: top; }
+	ul.banner-list li:nth-child(3n), ul.banner-list li:last-child {margin-right: 15px;}
+	.gateway-open h2 {text-align: center;}
+
+
+}
+
+
+
+@media (max-width: 980px) {
+	.banner {width: 550px;margin: 44px 0;}
+	
+	.header {text-align: center;}
+	ul.menu li {margin: 0 15px;}
+
+	.post-list {text-align: center;}
+	.post {width: 370px;margin: 0 15px 30px;display: inline-block;vertical-align: top;float: none;}
+	.post-img {height: auto;} 
+	.post-list .post:nth-child(3n) {margin-right: 15px;}
+
+	.main-slider .slick-prev, .main-slider .slick-next {display: none !important;}
+
+	.share {width: 48%;margin-right: 4%;margin-bottom: 20px;} 
+	.share-vk {width: 48%;margin-right: 0;margin-bottom: 20px;}
+	.connect {width: 100%;text-align: center;}
+
+	ul.menu li {margin: 0 10px;}
+	
+	.subscription {padding: 15px;}
+	.subscription p {display: block;margin-right: 0;margin-bottom: 10px;}
+	.subscription input[type="email"],.subscription .btn {margin-bottom: 10px;}
+
+	.footer-wrap {height: auto;margin-top: 0;}
+	.apendix {display: none;}
+
+	
+	.footer {height: auto;font-size: 12px;padding: 20px 0;}
+
+	.column-left {float: none;text-align: center;}
+
+	.column-right {float: none;height: auto;width: 100%;text-align: center;}
+	.footer-logo {float: none;}
+	.copiright {float: none;width: 100%;text-align: center;margin: 0 0 20px;height: auto;}
+	.footer-logo {margin: 0;}
+	h1, h2 {text-align: center;}
+
+	.contact-form {width: 100%;}
+	.contact-form .col-1 {width: 48%;margin-right: 4%;}
+}
+
+@media (max-width: 768px) {
+	.logo {float: none;display: inline-block;}
+	.banner {display: none;}
+	.main-slider .main-slide {height: 500px;}
+}
+
+
+
+@media (max-width: 680px) {
+	.mob-menu {display: block;}
+	.menu-wrap .container {display: none;}
+	.menu-wrap {height: auto;position: static;}
+	.color-strip {position: relative;}
+
+	.header {min-height: 100px;height: 100px;}
+	.logo {height: 80px;}
+	.wrapper {background-image: none;background-color: #fafafa;}
+
+	body,.news-list-title,.slider-content {font-size: 14px;line-height: 18px;}
+
+	.subscription input[type="email"] {width: 100%;}
+	.subscription .btn {margin-left: 0;}
+	
+	
+	
+	.slider-content {width: 100%;height: auto;}
+	.slider-content .title-slide {font-size: 20px; line-height: 24px;}
+
+	
+	.footer-logo {float: none;display: block;margin: 0 auto 10px;text-align: center;}
+	.copiright {float: none;display: block;text-align: center;height: auto;margin: 0 0 10px;}
+	.copiright .table-cell,.column-right .table-cell {display: inline-block;}
+
+	.main-slider .main-slide {height: 450px;}
+
+	.home .main {padding: 30px 0;}
+
+	ul.pagination {text-align: center;}
+	ul.pagination li {margin: 0 5px 10px;}
+	.social-panel {margin-top: 30px;}
+	
+	.share,.share-vk {width: 100%;margin-right: 0;margin-bottom: 20px;text-align: center;} 
+	.connect {width: 100%;text-align: center;}
+
+	ul.sub-menu-page li:first-child {display: none;}
+	ul.sub-menu-page li {margin-bottom: 10px;}
+	.gateway-name {width: 100%;}
+	.like-post p  {text-align: center;}
+	.like-post .social-list {text-align: center;}
+	
+
+	h1 {font-size: 30px;line-height: 36px;}
+	h2 {font-size: 22px;line-height: 30px;}
+	h3 {font-size: 16px;line-height: 22px;}
+	h4 {font-size: 16px;line-height: 22px;}
+	h5 {font-size: 14px;line-height: 18px;}
+	h6 {font-size: 12px;line-height: 16px;}
+
+	.contact-form .col-1 {width: 100%;margin-right: 0;}
+	.btn-fb {margin: 0 auto;}
+}
+
+
+@media (max-width: 430px) {
+	body,.news-list-title,.slider-content,ul.footer-menu li a {font-size: 12px;line-height: 16px;}
+	.news-list-title {padding: 10px 0;}
+	.hot-video .video-title,.box-type-3 .box-title,
+	
+
+	.post {width:100%;margin: 0 0 30px;height: auto;}
+	.post-img {height: auto;} 
+	.post-list .post:nth-child(3n) {margin-right: 0;}
+
+	ul.footer-menu li  {display: block;}
+
+	ul.banner-list li {margin: 0 0 20px;width: 100%;height: auto;}
+
+	.btn-2 {width: 100%;}
+	.main {padding-bottom: 30px;}
+}
+
